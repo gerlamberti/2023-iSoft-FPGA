@@ -1,0 +1,9 @@
+Servidor:
+	1 - desactivar el firewall de red pública.
+	2 - en la pagina del router (192.168.0.1) abrir el puerto (5010 por defecto o el puerto elegido si se cambia) 
+en Port Forward (poniendo la dirección IP local de la máquina como dirección del servidor).
+Cliente:
+	1 - poner la dirección de IP pública del servidor cuando se solicite.
+
+Por defecto y para evitar complicaciones, se eligió el puerto 5010 para la comunicación. Para cambiarlo se debe modificar
+la constante llamada defaultPort de la clase Interfaz con el puerto deseado.
